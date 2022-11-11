@@ -1,3 +1,6 @@
 fn main() {
-    println!("Hello, Rust 11/11/2022!");
+    let nombre: &str = "Gonzalo";
+    let edad: u8 = 34;
+
+    println!("Hola soy {} y tengo {} años", nombre, edad);
 }
